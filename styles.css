@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  min-width: 300px;
+  padding: 10px;
+}
+
+#video-list {
+  margin-top: 10px;
+}
+
+.video-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 8px;
+}
+
+.video-url {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 120px;
+}
+
+button {
+  padding: 4px 10px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1565c0;
+}
